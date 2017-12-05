@@ -1,0 +1,16 @@
+{
+  "File": "umb://template-file/Blogpost.cshtml",
+  "Master": null,
+  "Udi": "umb://template/ead0311890414c56a1cf715e8b295fcf",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/Blogpost.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Blogpost",
+  "Alias": "Blogpost",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "2.0.8"
+}

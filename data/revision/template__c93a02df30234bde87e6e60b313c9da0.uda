@@ -1,0 +1,16 @@
+{
+  "File": "umb://template-file/Person.cshtml",
+  "Master": null,
+  "Udi": "umb://template/c93a02df30234bde87e6e60b313c9da0",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/Person.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Person",
+  "Alias": "Person",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "2.0.8"
+}
