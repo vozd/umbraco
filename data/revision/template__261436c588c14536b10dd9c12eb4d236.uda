@@ -1,8 +1,13 @@
 {
   "File": "umb://template-file/Contact.cshtml",
-  "Master": null,
+  "Master": "umb://template/593e3ffb4f3940ccaa6377ad2b446427",
   "Udi": "umb://template/261436c588c14536b10dd9c12eb4d236",
   "Dependencies": [
+    {
+      "Udi": "umb://template/593e3ffb4f3940ccaa6377ad2b446427",
+      "Ordering": true,
+      "Mode": 0
+    },
     {
       "Udi": "umb://template-file/Contact.cshtml",
       "Ordering": true,
