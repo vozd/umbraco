@@ -1,0 +1,86 @@
+{
+  "DefaultTemplate": "umb://template/c60beb682a5742518bb8558be427ea1e",
+  "AllowedTemplates": [
+    "umb://template/c60beb682a5742518bb8558be427ea1e"
+  ],
+  "Icon": "icon-calendar-alt",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": true,
+  "Parent": null,
+  "AllowedChildContentTypes": [
+    "umb://document-type/f5f3dda095244b90a62e0e11be1db0ad"
+  ],
+  "CompositionContentTypes": [
+    "umb://document-type/aa92f52162914fe6acd539722d52b0e6",
+    "umb://document-type/ef9336a7bae948d89b202bc8e845ad97"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "9fc6f166-61da-4a4c-917b-6e49eb094027",
+      "Name": "Settings",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "0c4bcbf6-1462-4fd6-b7b7-c69cdc37b355",
+          "Alias": "howManyPostsShouldBeShown",
+          "DataType": "umb://data-type/889bac096ea1428e914e80f0b0dd9ee9",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "How many posts should be shown?",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "1a87bd75-4a42-4ed0-9c1a-e8379db6c5b7",
+          "Alias": "disqusShortname",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "To use comments, you'll need to sign up for Disqus and enter your shortname here (more info: https://help.disqus.com/customer/portal/articles/472097-universal-embed-code)",
+          "Mandatory": false,
+          "Name": "Disqus Shortname",
+          "SortOrder": 1,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/45558f2a080741b1abdaa268390d83fa",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/889bac096ea1428e914e80f0b0dd9ee9",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/aa92f52162914fe6acd539722d52b0e6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/ef9336a7bae948d89b202bc8e845ad97",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/f5f3dda095244b90a62e0e11be1db0ad",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/c60beb682a5742518bb8558be427ea1e",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Blog",
+  "Alias": "blog",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

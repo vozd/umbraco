@@ -1,0 +1,145 @@
+{
+  "DefaultTemplate": "umb://template/261436c588c14536b10dd9c12eb4d236",
+  "AllowedTemplates": [
+    "umb://template/261436c588c14536b10dd9c12eb4d236"
+  ],
+  "Icon": "icon-map-location",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/aa92f52162914fe6acd539722d52b0e6"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "be5cc07e-6075-4da4-be49-33626e65a1b8",
+      "Name": "Map",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "1dc1c2e6-990e-4d8c-9438-0686f80b2d13",
+          "Alias": "apiKey",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "To use the map you'll need your own Google API key. More information here: https://developers.google.com/maps/documentation/javascript/error-messages#no-api-keys",
+          "Mandatory": true,
+          "Name": "ApiKey",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "453f725b-a2b5-47dc-a9f6-c962e5f26837",
+          "Alias": "mapHeader",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Map Header",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "bf2bf968-3590-44b0-aebc-8c0067cebde7",
+          "Alias": "map",
+          "DataType": "umb://data-type/018e0ec8d8044874a65591cb72d5efb2",
+          "Description": "Plot your address on the map and it'll be displayed on the contact page",
+          "Mandatory": true,
+          "Name": "Your Address",
+          "SortOrder": 3,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "c3727639-282c-4b62-9ab8-42cc3807231c",
+      "Name": "Form",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "13762311-ac7f-43a5-9875-043a1d444bee",
+          "Alias": "contactIntro",
+          "DataType": "umb://data-type/6cb46f55a79a43b9adf4324eded44723",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Contact Intro",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "5693ac42-ed13-4b94-9ee1-975ee022cb49",
+          "Alias": "pageTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "The title of the page, this is also the first text in a google search result. The ideal length is between 40 and 60 characters",
+          "Mandatory": true,
+          "Name": "Page Title",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "87add2f5-da79-44d1-826b-9710422e58b8",
+          "Alias": "contactForm",
+          "DataType": "umb://data-type/c535b55f78dc48c5ac1852f47e6d09af",
+          "Description": "If Umbraco Forms is installed you'll be able to select a form here.",
+          "Mandatory": false,
+          "Name": "Pick a Contact Form",
+          "SortOrder": 3,
+          "Validation": null
+        },
+        {
+          "Key": "f49d42e5-7f40-4b40-90c4-a7e29186ff7e",
+          "Alias": "contactFormHeader",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Contact Form Header",
+          "SortOrder": 1,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/6e01a9465214412da048c47dfc0daa3f",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/018e0ec8d8044874a65591cb72d5efb2",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/6cb46f55a79a43b9adf4324eded44723",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c535b55f78dc48c5ac1852f47e6d09af",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/aa92f52162914fe6acd539722d52b0e6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/261436c588c14536b10dd9c12eb4d236",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Contact",
+  "Alias": "contact",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

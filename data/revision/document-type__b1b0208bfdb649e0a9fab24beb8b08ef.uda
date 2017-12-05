@@ -1,0 +1,64 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-plugin",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/3e89b72644c94569a40d96d9474ff76d",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "d8a035ee-866c-49cd-8b5a-b550a2d08517",
+      "Name": "Feature",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "44326ccb-a148-41c8-9359-cbc62581e977",
+          "Alias": "featureName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Name",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "e1c027d0-f183-4ea9-868e-ad96069b0bee",
+          "Alias": "featureDetails",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Details",
+          "SortOrder": 1,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/b1b0208bfdb649e0a9fab24beb8b08ef",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/3e89b72644c94569a40d96d9474ff76d",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Feature",
+  "Alias": "feature",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

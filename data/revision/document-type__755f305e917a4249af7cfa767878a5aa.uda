@@ -1,0 +1,71 @@
+{
+  "DefaultTemplate": "umb://template/9c856ca752d34341a1f9a11b92494390",
+  "AllowedTemplates": [
+    "umb://template/9c856ca752d34341a1f9a11b92494390"
+  ],
+  "Icon": "icon-user-females-alt",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": true,
+  "Parent": null,
+  "AllowedChildContentTypes": [
+    "umb://document-type/4bc669d8b8224468ad9c687349e0c640"
+  ],
+  "CompositionContentTypes": [
+    "umb://document-type/aa92f52162914fe6acd539722d52b0e6",
+    "umb://document-type/ef9336a7bae948d89b202bc8e845ad97"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "d0394488-3d1d-4bc7-828f-16830df0f060",
+      "Name": "Content",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "49a14d7e-8fbb-452d-9f0b-9004edc2697e",
+          "Alias": "featuredPeople",
+          "DataType": "umb://data-type/dfab9a2767d34dbaac913a70f9faadfe",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Featured People",
+          "SortOrder": 2,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/755f305e917a4249af7cfa767878a5aa",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/dfab9a2767d34dbaac913a70f9faadfe",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/4bc669d8b8224468ad9c687349e0c640",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/aa92f52162914fe6acd539722d52b0e6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/ef9336a7bae948d89b202bc8e845ad97",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/9c856ca752d34341a1f9a11b92494390",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "People",
+  "Alias": "people",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}
