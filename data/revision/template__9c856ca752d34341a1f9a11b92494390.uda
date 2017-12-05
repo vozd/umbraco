@@ -1,8 +1,13 @@
 {
   "File": "umb://template-file/People.cshtml",
-  "Master": null,
+  "Master": "umb://template/593e3ffb4f3940ccaa6377ad2b446427",
   "Udi": "umb://template/9c856ca752d34341a1f9a11b92494390",
   "Dependencies": [
+    {
+      "Udi": "umb://template/593e3ffb4f3940ccaa6377ad2b446427",
+      "Ordering": true,
+      "Mode": 0
+    },
     {
       "Udi": "umb://template-file/People.cshtml",
       "Ordering": true,
